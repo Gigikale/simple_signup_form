@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SignUp <Form></Form></title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="form-container">
+      <form action="submit_feedback.html" method="post">
+        <div class="title-wrapper">
+          <h3>Meeting Registration Form</h3>
+        </div>
+        <br />
+
+        <label for="name">First Name:</label><br />
+        <input
+          type="text"
+          placeholder="Enter First Name"
+          class="input-fields"
+          id="first name"
+          name="first name"
+          required
+        /><br /><br />
+
+        <label for="name">Middle Name:</label><br />
+        <input
+          type="text"
+          placeholder="Enter Middle Name"
+          class="input-fields"
+          id="middle name"
+          name="middle name"
+          required
+        /><br /><br />
+
+        <label for="name">Last Name:</label><br />
+        <input
+          type="text"
+          placeholder="Enter Last Name"
+          class="input-fields"
+          id="last name"
+          name="last name"
+          required
+        /><br /><br />
+
+        <div class="identity-wrapper">
+          <label for="gender">Gender:</label><br />
+          <select class="gender" id="gender" name="gender" required>
+            <option value=""></option>
+            <option value="Female">Female</option>
+            <option value="Male">Male</option>
+            <option value="Preferred Not To Say">Preferred Not To Say</option>
+            <option value="Other">Other</option></select
+          ><br /><br />
+
+          <label for="date of birth">Date of Birth:</label><br />
+          <input
+            type="date"
+            placeholder="Enter your Date of Birth"
+            class="dob"
+            id="date"
+            name="date"
+            required
+          /><br /><br />
+        </div>
+
+        <label for="name">Username:</label><br />
+        <input
+          type="text"
+          placeholder="Enter Username"
+          class="input-fields"
+          id="username"
+          name="username"
+          required
+        /><br /><br />
+
+        <label for="name">Email:</label><br />
+        <input
+          type="email"
+          placeholder="example02@gmail.com"
+          class="input-fields"
+          id="email"
+          name="email"
+          required
+        /><br /><br />
+
+        <label for="name">Password:</label><br />
+        <input
+          type="password"
+          placeholder="Enter Password"
+          class="input-fields"
+          id="password"
+          name="password"
+          required
+        /><br /><br />
+
+        <label for="name">Confirmed Password:</label><br />
+        <input
+          type="password"
+          placeholder="Enter Confirmed Password"
+          class="input-fields"
+          id="password"
+          name="password"
+          required
+        /><br /><br />
+
+        <label for="name">Phone Number:</label><br />
+        <input
+          type="number"
+          placeholder="Enter Phone Number"
+          class="input-fields"
+          id="number"
+          name="number"
+          required
+        /><br /><br />
+
+        <label for="session">Session:</label>
+
+        <select class="session" id="session" name="session" required>
+          <option value=""></option>
+          <option value="Morning">Morning Session</option>
+          <option value="Afternoon">Afternoon Session</option>
+          <option value="Evening">Evening Session</option>
+          <option value="Yet To Book">Yet To Book</option></select
+        ><br /><br /><br />
+
+        <div class="duration-container">
+          <label for="meeting Date">Meeting Date:</label>
+          <input
+            type="date"
+            placeholder="Enter your Meeting Date"
+            class="meeting-date"
+            id="date"
+            name="date"
+            required
+          /><br /><br /><br />
+
+          <label for="meeting time">Meeting Time:</label>
+          <input
+            type="time"
+            placeholder="Enter your Meeting Time"
+            class="meeting-time"
+            id="time"
+            name="time"
+            required
+          />
+        </div>
+        <br /><br />
+        <h4>By creating an account you agree to Our Terms & Privacy</h4>
+        <br /><br />
+
+        <div class="title-wrapper">
+          <button class="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
